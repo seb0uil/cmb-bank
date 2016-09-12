@@ -1,8 +1,12 @@
 {
     "name": "cmb-bank",
     "version": "0.1.0",
+    "license": "GPL-3.0",
+    "keywords": "cmb bank banque credit mutuel bretagne",
     "dependencies": {
         "request": "~2.74",
-		"async": "~0.1"
+        "async": "~0.1",
+        "url": "~0.11",
+        "querystring": "~0.2"
     }
 }
