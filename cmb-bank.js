@@ -34,7 +34,7 @@ function login(username, password) {
             if (err) {
                 reject(err);
             } else {
-                if (httpResponse.statusCode != 200) {
+                if (httpResponse.statusCode != 302) {
                     reject({'status':httpResponse.statusCode, 'body':httpResponse.body})
                 } else {
                     uloc = url.parse(httpResponse.headers.location);
