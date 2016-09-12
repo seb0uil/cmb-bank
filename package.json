@@ -1,11 +1,21 @@
 {
     "name": "cmb-bank",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "license": "GPL-3.0",
+    "author": {
+        "name": "seb0uil"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/seb0uil/cmb-bank.git"
+    },
+    "bugs": {
+        "url": "https://github.com/seb0uil/cmb-bank/issues"
+    },
     "keywords": "cmb bank banque credit mutuel bretagne",
     "dependencies": {
         "request": "~2.74",
-        "async": "~0.1",
+        "async": "~2.0",
         "url": "~0.11",
         "querystring": "~0.2"
     }
